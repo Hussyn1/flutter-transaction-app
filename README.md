@@ -33,8 +33,7 @@ A modern Flutter application for managing and tracking your money — clean, fas
 > 💡 _Put these screenshots inside a `screenshots/` folder in your project root_
 
 ### 🏠 Home Page
-![Home](Screenshots/Home-page.jpg)
-
+<img src="Screenshots/Home-page.jpg" alt="Home Screen" width="300" />
 ### 💸 Transaction History
 ![History](screenshots/history.png)
 
