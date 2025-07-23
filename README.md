@@ -31,17 +31,25 @@ A modern Flutter application for managing and tracking your money — clean, fas
 ## 📸 Screenshots
 
 > 💡 _Put these screenshots inside a `screenshots/` folder in your project root_
-
 ### 🏠 Home Page
 <img src="Screenshots/Home-page.jpg" alt="Home Screen" width="300" />
-### 💸 Transaction History
-![History](screenshots/history.png)
-
 ### ➕ Add Money
-![Add Money](screenshots/add_money.png)
-
+<img src="Screenshots/Add-money.jpg" alt="Home Screen" width="300" />
 ### 👥 Contacts and Transfer
-![Contacts](screenshots/transfer.png)
+<img src="Screenshots/Transfer-Money.jpg" alt="Home Screen" width="300" />
+<img src="Screenshots/Transfer-Page-2.jpg" alt="Home Screen" width="300" />
+## Map Page
+<img src="Screenshots/Map-page.jpg" alt="Home Screen" width="300" />
+### Profile Page
+<img src="Screenshots/Profile-page.jpg" alt="Home Screen" width="300" />
+###Setting Page
+<img src="Screenshots/Setting-page.jpg" alt="Home Screen" width="300" />
+
+
+
+
+
+
 
 ---
 
