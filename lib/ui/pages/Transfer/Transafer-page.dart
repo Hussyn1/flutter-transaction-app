@@ -57,6 +57,7 @@ class _TransferPageState extends State<TransferPage> {
       context: context,
       builder: (context) {
         return AlertDialog(
+          backgroundColor: AppColor.White,
           title: Text('Add Contact'),
           content: StatefulBuilder(
             builder: (context, setState) {
@@ -64,7 +65,9 @@ class _TransferPageState extends State<TransferPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   TextField(
-                    decoration: InputDecoration(labelText: 'Name'),
+                    decoration: InputDecoration(hintText: 'Name',
+                  
+                    ),
                     onChanged: (val) {
                       name = val;
                       setState(() {
@@ -91,7 +94,7 @@ class _TransferPageState extends State<TransferPage> {
                 }
                 Navigator.pop(context);
               },
-              child: Text('Add'),
+              child: Text('Add', style: AppTextStyle.bold(15)),
             ),
           ],
         );

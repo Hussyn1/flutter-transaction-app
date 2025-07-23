@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:transaction_application/ui/theme/color/color.dart';
 import 'package:transaction_application/ui/theme/textStyle.dart';
 
 class PersonalInfoCard extends StatefulWidget {
@@ -24,6 +25,7 @@ class _PersonalInfoCardState extends State<PersonalInfoCard> {
       context: context,
       builder: (context) {
         return AlertDialog(
+          backgroundColor: AppColor.White,
           title: const Text("Edit Personal Info"),
           content: SingleChildScrollView(
             child: Column(
@@ -50,9 +52,10 @@ class _PersonalInfoCardState extends State<PersonalInfoCard> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: const Text("Cancel"),
+              child: Text("Cancel", style: AppTextStyle.bold(17)),
             ),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(backgroundColor: AppColor.Black),
               onPressed: () {
                 setState(() {
                   name = nameController.text;
@@ -62,7 +65,7 @@ class _PersonalInfoCardState extends State<PersonalInfoCard> {
                 });
                 Navigator.pop(context);
               },
-              child: const Text("Save"),
+              child: Text("Save", style: AppTextStyle.semiBold(17)),
             ),
           ],
         );
